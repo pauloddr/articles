@@ -124,10 +124,10 @@ Super skills are performed with additional directional motions.
 
 ## Meters
 
-* Health - HP as we know it
-* Special - the blue bar for special attacks
-* Shield - defense system
-* Focus - stun system
+* Health - HP as we know it - starts at 800 points
+* Special - the blue bar for special attacks, sometimes called "Spirit" - starts at 100 points
+* Shield - defense system - starts at 400 points
+* Focus - stun system - starts at 400 points
 
 There won't be a "guard break" mechanic upon Shield depletion, but rather, attacks will begin causing damage on block -- even normal ones -- and some defensive features will be disabled.
 
@@ -139,12 +139,28 @@ Enhanced by leveling up. Each attribute will have a max of 50 points.
 
 The max level of a character will be 100, and each level gives one attribute point to use.
 
-* Strength - enhances Health damage with melee skills and throws, and Shield damage with melee skills.
+* Strength - enhances melee damage to Health and Shields, and throw damage to Health.
+  * This makes your melee and throw attacks stronger overall.
+  * Throws do not cause Shield damage.
 * Vitality - enhances Health points, Shield points, and Focus points.
+  * This increases your overall survivability.
 * Agility - enhances movement speed, and Shield/Focus recovery speed.
-* Dexterity - enhances Focus damage with melee attacks and projectiles, and Shield damage with projectiles.
-* Intelligence - enhances Special points gained by using skills, and Health damage with projectiles.
-* Charisma - reduces the time Focus and Shield begin recovering after being attacked, and reduces stun duration.
+  * This makes you move faster, even out of danger, so you can recover faster.
+* Dexterity - enhances melee, throws, and projectile damage to Focus.
+  * Causes your attacks to hit more accurately, stunning your enemies faster.
+* Intelligence - enhances Special points gained by using skills, and projectile damage to Health and Shields.
+  * Enhances your "spirit", causing your projectiles to be stronger.
+  * You also execute your skills more intelligently and efficiently, yielding more benefits in the form of additional Special points earned.
+* Charisma - reduces the time Focus and Shield begin recovering after you stop receiving attacks, and reduces stun duration.
+  * You are loved! The support of your fans brings you to your feet faster! :)
+
+Along with Custom Characters, Canon and NPC Characters will also have their builds based on this system.
+
+Each point increases the mentioned attributes by 1% each. So Vitality enhances HP by 50% when 50 points are invested, making it reach 1200 points.
+
+It's a linear system, without diminishing returns on the base value. That way, players won't feel "forced" to balance out their attributes just because investing in a single node is less effective. If players want to invest everything in Strength and Vitality, so be it, but they will move and recover slower, cause less stun, have weak SP generation, etc.
+
+It also brings offense and defense more in line: a character with max offense will take out a character with max defense in the same time it would take if both of them had no bonuses at all. No attributes "multiply" around each other: that's why you won't be seeing a mechanic for "damage resistance", for example, because it multiplies around Health points, thus causing potential balance issues.
 
 ## Multiplayer
 
