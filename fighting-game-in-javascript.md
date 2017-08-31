@@ -1,6 +1,6 @@
 # Fighting Game in Javascript
 
-This is a document for sharing notes and thoughts about a fighting game I am developing.
+This is a document for sharing notes and thoughts about a fighting game I am currently developing.
 
 ## Premises
 
@@ -18,13 +18,13 @@ This is a document for sharing notes and thoughts about a fighting game I am dev
     * There's the "pixel art" term for 2D graphics. Is there such a thing for 3D?
     * There are a bunch of games that are low-poly but look good.
 
-## Graphic Concept
+## Graphical Concept
 
 ![Poses](http://images.pauloddr.com/articles/poses2.png)
 
 The above image was generated in a web page, using Javascript and ThreeJS. 
 
-So, I want to turn that into a game.
+So, I want to turn that into a full game.
 
 ## Expected Game Modes
 
@@ -41,11 +41,13 @@ So, I want to turn that into a game.
   
 ## Story/Environment
 
-A year in the very far future, in a futuristic city where robots with human-like behavior live peacefully (almost) with the minority of humans that are still alive, after a change in radiation levels from the sun almost killed them all.
+A year in the very far future, in a futuristic city where robots with human-like behavior live peacefully (almost) with the minority of humans that are still alive, after a sudden and unexpected change in radiation levels from the sun almost killed them all.
 
 Each robot shares the memories of a deceased human in the form of a synthetic "brain" that is able to learn new things and make decisions, just like humans. Despite being their own "persons", robots usually have a "human trainer" that maintains and guides them.
 
-In the game, the player him/herself takes the role of that human trainer, and the robots that populate that world are the fighters they create using the "Create a Character" feature. NPC Characters usually have NPC human trainers as well.
+In the game, the player him/herself takes the role of that human trainer, and the robots that populate the world are the fighters they create using the "Create a Character" feature.
+
+Canon Characters usually have NPC human trainers as well.
 
 ## Characters and Factions
 
@@ -55,9 +57,13 @@ In the game, the player him/herself takes the role of that human trainer, and th
 * Enforcers 
 * Rogues
 
-Each faction has 4 characters. One character stands out from each faction, and the three together are the main protagonists of the game: one Artist, one Enforcer, and one Rogue.
+Each faction has 4 characters and 1 boss (non-playable, initially). 
 
-Each faction has a mid-boss. They won't be playable, initially.
+One non-boss character stands out from each faction. The three of them form the game's team of protagonists:
+
+* one Artist (a student);
+* one Enforcer (a police officer);
+* and one Rogue (a cage fighter).
 
 There will be a final boss, not belonging to any faction.
 
@@ -87,9 +93,9 @@ Boss characters will feature mixed fighting styles.
 
 Players will be able to create their own characters and customize them, both visually and gameplay-wise.
 
-Players begin creating a character by choosing a fighting style. Each fighting style has a specific, themed bonus. (Example: kung fu fighters earn a bonus to speed.)
+Players begin creating a character by choosing a fighting style. Each fighting style has a specific, themed bonus. (Example: kung fu fighters would earn a bonus to speed.)
 
-Next, assemble the parts of the fighter/robot. Each box you see on the picture above will be able to be customized. Different geometries are expected, as well as paint jobs, accessories, lighting effects, and so on.
+Next, assemble the parts of the fighter/robot. Each box you see on the previous picture will be able to be customized. Different geometries are expected, as well as paint jobs, accessories, lighting effects, and so on.
 
 Then players will be able to fight, earn XP, money, and level up their characters.
 
@@ -102,6 +108,43 @@ Skill frames (startup, active, recovery, hitstun, blockstun) can not be enhanced
 Skills are mostly related to specific martial arts, and some won't be able to be picked, for example, a wrestling skill for a kung fu fighter.
 
 But there will be a "Free Form" fighting style that allows a character to pick skills from multiple arts. Because of that, Free Form characters don't get the bonuses they otherwise would if they picked an specific style.
+
+## Control Scheme
+
+One directional, four action buttons:
+
+* Light Punch - X
+* Heavy Punch - Y
+* Light Kick - A
+* Heavy Kick - B
+
+EX skills are performed with two punch/kick buttons at the same time.
+
+Super skills are performed with additional directional motions.
+
+## Meters
+
+* Health - HP as we know it
+* Special - the blue bar for special attacks
+* Shield - defense system
+* Focus - stun system
+
+There won't be a "guard break" mechanic upon Shield depletion, but rather, attacks will begin causing damage on block -- even normal ones -- and some defensive features will be disabled.
+
+Focus depletion causes the character to be stunned. Its amount can be increased, and the time the character remains stunned can be decreased by attributes.
+
+## Attributes
+
+Enhanced by leveling up. Each attribute will have a max of 50 points.
+
+The max level of a character will be 100, and each level gives one attribute point to use.
+
+* Strength - enhances melee and throw damage, and damage to Shields.
+* Vitality - enhances Health, Shield, and Focus points.
+* Agility - enhances movement speed and Shield/Focus recovery.
+* Dexterity - enhances damage to Focus with melee attacks and projectiles, and damage to Shields with projectiles.
+* Intelligence - enhances Special points earned by using skills, and damage with projectiles.
+* Charisma - reduces the time Focus and Shield begin recovering after being attacked, and reduces stun duration.
 
 ## Multiplayer
 
@@ -140,11 +183,13 @@ Multiplayer is a huge challenge in itself.
 
 ## Roadmap
 
-### 0.1
+### 0.1 - Proof of Concept
 
 Develop a very basic character, with one attack, and walk forward/backward. 
 
-Test the concept of running a 3D character in Javascript and see how it performs. Does it lag or glitch in any way?
+Test the concept of running a 3D character in Javascript and see how it performs. 
+
+Does it lag or glitch in any way? Does it memory-leak?
 
 "Can we go on?"
 
@@ -167,6 +212,32 @@ Implement a "Match": health and special bars, rounds, time limit, teams.
 ### 0.6+
 
 Implement the rest of the features.
+
+## Other Images
+
+Trying to create a posing tool:
+
+![Pose Tool](http://images.pauloddr.com/articles/pose_1.png)
+
+A very sorry attempt at a HUD:
+
+![HUD](http://images.pauloddr.com/articles/pose_controls.png)
+
+Playing with outlines:
+
+![Outlines](http://images.pauloddr.com/articles/outlines.png)
+
+The very first version of the base character, rendered in JavaScript. 
+
+It's so ugly but I was so happy how it turned out back then, lol.
+
+![Poses](http://images.pauloddr.com/articles/first.jpg)
+
+Then I made it into an instantiable class so I could spawn multiples:
+
+![Poses](http://images.pauloddr.com/articles/second.jpg)
+
+I usually post screens of my work on my [Twitter](https://twitter.com/paulo_ddr).
 
 ## WIP
 
