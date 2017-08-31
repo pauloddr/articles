@@ -139,11 +139,11 @@ Enhanced by leveling up. Each attribute will have a max of 50 points.
 
 The max level of a character will be 100, and each level gives one attribute point to use.
 
-* Strength - enhances melee and throw damage, and damage to Shields.
-* Vitality - enhances Health, Shield, and Focus points.
-* Agility - enhances movement speed and Shield/Focus recovery.
-* Dexterity - enhances damage to Focus with melee attacks and projectiles, and damage to Shields with projectiles.
-* Intelligence - enhances Special points earned by using skills, and damage with projectiles.
+* Strength - enhances Health damage with melee skills and throws, and Shield damage with melee skills.
+* Vitality - enhances Health points, Shield points, and Focus points.
+* Agility - enhances movement speed, and Shield/Focus recovery speed.
+* Dexterity - enhances Focus damage with melee attacks and projectiles, and Shield damage with projectiles.
+* Intelligence - enhances Special points gained by using skills, and Health damage with projectiles.
 * Charisma - reduces the time Focus and Shield begin recovering after being attacked, and reduces stun duration.
 
 ## Multiplayer
