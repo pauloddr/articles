@@ -26,6 +26,16 @@ The above image was generated in a web page, using Javascript and ThreeJS.
 
 So, I want to turn that into a full game.
 
+## Story/Environment
+
+A year in the very far future, in a futuristic city where robots with human-like behavior live peacefully (almost) with the minority of humans that are still alive, after a sudden and unexpected change in radiation levels from the sun almost killed them all.
+
+Each robot shares the memories of a deceased human in the form of a synthetic "brain" that is able to learn new things and make decisions, just like humans. Despite being their own "persons", robots usually have a "human trainer" that maintains and guides them.
+
+In the game, the player him/herself takes the role of that human trainer, and the robots that populate the world are the fighters they create using the "Create a Character" feature.
+
+Canon Characters usually have NPC human trainers as well.
+
 ## Expected Game Modes
 
 * Arcade Mode
@@ -39,16 +49,6 @@ So, I want to turn that into a full game.
 * Offline Tournaments
   * AI Leagues
   
-## Story/Environment
-
-A year in the very far future, in a futuristic city where robots with human-like behavior live peacefully (almost) with the minority of humans that are still alive, after a sudden and unexpected change in radiation levels from the sun almost killed them all.
-
-Each robot shares the memories of a deceased human in the form of a synthetic "brain" that is able to learn new things and make decisions, just like humans. Despite being their own "persons", robots usually have a "human trainer" that maintains and guides them.
-
-In the game, the player him/herself takes the role of that human trainer, and the robots that populate the world are the fighters they create using the "Create a Character" feature.
-
-Canon Characters usually have NPC human trainers as well.
-
 ## Characters and Factions
 
 12 playable characters are being planned, divided among 3 factions:
