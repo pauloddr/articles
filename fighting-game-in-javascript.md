@@ -229,31 +229,9 @@ Implement a "Match": health and special bars, rounds, time limit, teams.
 
 Implement the rest of the features.
 
-## Other Images
+## More Images
 
-Trying to create a posing tool:
-
-![Pose Tool](http://images.pauloddr.com/articles/pose_1.png)
-
-A very sorry attempt at a HUD:
-
-![HUD](http://images.pauloddr.com/articles/pose_controls.png)
-
-Playing with outlines:
-
-![Outlines](http://images.pauloddr.com/articles/outlines.png)
-
-The very first version of the base character, rendered in JavaScript. 
-
-It's so ugly but I was so happy how it turned out back then, lol.
-
-![Poses](http://images.pauloddr.com/articles/first.jpg)
-
-Then I made it into an instantiable class so I could spawn multiples:
-
-![Poses](http://images.pauloddr.com/articles/second.jpg)
-
-I usually post screens of my work on my [Twitter](https://twitter.com/paulo_ddr).
+I usually post screens of my work on [Twitter](https://twitter.com/paulo_ddr).
 
 ## WIP
 
