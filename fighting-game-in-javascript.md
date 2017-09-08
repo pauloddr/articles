@@ -28,13 +28,13 @@ So, I want to turn that into a full game.
 
 ## Story/Environment
 
-A year in the very far future, in a futuristic city where robots with human-like behavior live peacefully (almost) with the minority of humans that are still alive, after a sudden and unexpected change in radiation levels from the sun almost killed them all.
+A year in the very far future, in a futuristic city where robots with human-like behavior live peacefully (almost) with the minority of humans that are still alive -- after a sudden and unexpected change in radiation levels from the sun almost killed them all.
 
-Each robot shares the memories of a deceased human in the form of a synthetic "brain" that is able to learn new things and make decisions, just like humans. Despite being their own "persons", robots usually have a "human trainer" that maintains and guides them.
+Each robot shares the memories of a deceased human in the form of a synthetic "brain" that is able to learn new things and make decisions, just like humans. Despite being their own "persons", robots usually have a "human mentor" that maintains and guides them. Due to disparity between the population of robots and humans, many robots do not have human mentors, and many humans mentor more than one robot.
 
-In the game, the player him/herself takes the role of that human trainer, and the robots that populate the world are the fighters they create using the "Create a Character" feature.
+In the game, the player him/herself takes the role of that human mentor, and the robots that populate the world are the fighters they create using the "Create a Character" feature, plus the NPCs.
 
-Canon Characters usually have NPC human trainers as well.
+Canon Characters usually have NPC human mentors as well.
 
 ## Expected Game Modes
 
@@ -57,7 +57,7 @@ Canon Characters usually have NPC human trainers as well.
 * Enforcers 
 * Rogues
 
-Each faction has 4 characters and 1 boss (non-playable, initially). 
+Each faction has 4 characters and 1 mid-boss (non-playable, initially). 
 
 One non-boss character stands out from each faction. The three of them form the game's team of protagonists:
 
@@ -87,7 +87,7 @@ Other martial arts decided upon, and their origins, are:
 
 The remaining styles are still being decided or worked on.
 
-Boss characters will feature mixed fighting styles.
+Boss characters will feature mixed/free-form fighting styles.
 
 ## Character Customization
 
@@ -103,7 +103,7 @@ Leveling up allows characters to learn skills. Skills vary from stances to attac
 
 Each skill can be leveled up as well, and enhanced as the player wishes. Skills can have increased damage, stun generation, block damage, generate more SP, and so on. 
 
-Skill frames (startup, active, recovery, hitstun, blockstun) can not be enhanced, and are always fixed. This is to avoid balance issues.
+Skill framedata (startup, active, recovery, hitstun, blockstun) are always fixed and cannot be changed in any way. This is to avoid balance issues.
 
 Skills are mostly related to specific martial arts, and some won't be able to be picked, for example, a wrestling skill for a kung fu fighter.
 
@@ -111,12 +111,12 @@ But there will be a "Free Form" fighting style that allows a character to pick s
 
 ## Control Scheme
 
-One directional, four action buttons:
+One directional, and four action buttons that control the character limbs:
 
-* Light Punch - X
-* Heavy Punch - Y
-* Light Kick - A
-* Heavy Kick - B
+* Left Punch - X
+* Right Punch - Y
+* Left Kick - A
+* Right Kick - B
 
 EX skills are performed with two punch/kick buttons at the same time.
 
@@ -129,7 +129,7 @@ Super skills are performed with additional directional motions.
 * Shield - defense system - starts at 400 points
 * Focus - stun system - starts at 400 points
 
-There won't be a "guard break" mechanic upon Shield depletion, but rather, attacks will begin causing damage on block -- even normal ones -- and some defensive features will be disabled.
+There won't be a "guard break" mechanic upon Shield depletion, but rather, attacks will begin causing damage on block -- even normal ones -- and some defensive features (like pushblock) will be disabled.
 
 Focus depletion causes the character to be stunned. Its amount can be increased, and the time the character remains stunned can be decreased by attributes.
 
@@ -160,7 +160,7 @@ Each point increases the mentioned attributes by 1% each. So Vitality enhances H
 
 It's a linear system, without diminishing returns on the base value. That way, players won't feel "forced" to balance out their attributes just because investing in a single node is less effective. If players want to invest everything in Strength and Vitality, so be it, but they will move and recover slower, cause less stun, have weak SP generation, etc.
 
-It also brings offense and defense more in line: a character with max offense will take out a character with max defense in the same time it would take if both of them had no bonuses at all. No attributes "multiply" around each other: that's why you won't be seeing a mechanic for "damage resistance", for example, because it multiplies around Health points, thus causing potential balance issues.
+It also brings offense and defense more in line: a character with max offense will take out a character with max defense in the same time it would take if both of them had no bonuses at all. No attributes "multiply" around each other: that's why I don't plan on implementing a mechanic for "damage resistance", for example, because it multiplies around Health points, thus causing potential balance issues.
 
 ## Multiplayer
 
@@ -205,13 +205,15 @@ Develop a very basic character, with one attack, and walk forward/backward.
 
 Test the concept of running a 3D character in Javascript and see how it performs. 
 
-Does it lag or glitch in any way? Does it memory-leak?
+Does it lag or glitch in any way? Does it memory-leak? Can the leak be addressed/fixed?
 
 "Can we go on?"
 
 ### 0.2
 
 Improve character with two punches, two kicks, and make hitboxes work. Add enemy character. One single hit reaction.
+
+"Is it still viable?"
 
 ### 0.3
 
@@ -221,17 +223,113 @@ Implement crouching, and add basic crouching attacks.
 
 Implement jumping, with basic aerial attacks. Add juggle hit reactions and physics.
 
+"How implementing physics impact the game performance?"
+
 ### 0.5
 
 Implement a "Match": health and special bars, rounds, time limit, teams.
 
+Publish the first public demo, make surveys, etc.
+
+Handle feedback and reception. Improve where possible.
+
+"Is there enough interest?"
+
 ### 0.6+
+
+Reveal the name of the game.
+
+Begin pre-technical-pre-PRE-alpha testing.
 
 Implement the rest of the features.
 
 ## More Images
 
 I usually post screens of my work on [Twitter](https://twitter.com/paulo_ddr).
+
+## Characters
+
+Tentative list of initial playable NPCs (non-player characters).
+
+### Artists
+
+#### Tera
+
+* Female, Student
+* Fighting Style: Karate
+* Keywords: zoner, balanced
+
+#### Andromeda
+
+* Male, Acolyte
+* Fighting Style: ?
+* Keywords: blind, grappler
+
+#### Carrion
+
+* Female, Housewife
+* Fighting Style: Kung Fu
+* Keywords: ?
+
+#### Tick
+
+* Male, Merchant
+* Fighting Style: ?
+* Keywords: teleport
+
+### Enforcers
+
+#### Proto
+
+* Male, Police Officer
+* Fighting Style: Savate
+* Keywords: rushdown, combo
+
+#### Cybel
+
+* Female, Doctor
+* Fighting Style: ?
+* Keywords: acrobat, aerial
+
+#### Hammer
+
+* Male, Fireman
+* Fighting Style: Wrestling
+* Keywords: grappler
+
+#### Fang
+
+* Female, Investigator
+* Fighting Style: ?
+* Keywords: poison
+
+Notes: probably going to change her name due to Fang being in SFV.
+
+### Rogues
+
+#### Jet
+
+* Male, Cage Fighter
+* Fighting Style: Muay Thai
+* Keywords: critical, burst
+
+#### Sparkle
+
+* Female, Dancer
+* Fighting Style: ?
+* Keywords: ?
+
+#### Blackout
+
+* Male, Bodyguard
+* Fighting Style: ?
+* Keywords: dirty
+
+#### Amp
+
+* Female, Bounty Hunter
+* Fighting Style: Boxing
+* Keywords: rushdown, sonic
 
 ## WIP
 
