@@ -26,6 +26,52 @@ The above image was generated in a web page, using Javascript and ThreeJS.
 
 So, I want to turn that into a full game.
 
+## Roadmap
+
+### 0.1 - Proof of Concept
+
+Develop a very basic character, with one attack, and walk forward/backward. 
+
+Test the concept of running a 3D character in Javascript and see how it performs. 
+
+Does it lag or glitch in any way? Does it memory-leak? Can the leak be addressed/fixed?
+
+"Can we go on?"
+
+### 0.2
+
+Improve character with two punches, two kicks, and make hitboxes work. Add enemy character. One single hit reaction.
+
+"Is it still viable?"
+
+### 0.3
+
+Implement crouching, and add basic crouching attacks.
+
+### 0.4
+
+Implement jumping, with basic aerial attacks. Add juggle hit reactions and physics.
+
+"How implementing physics impact the game performance?"
+
+### 0.5
+
+Implement a "Match": health and special bars, rounds, time limit, teams.
+
+Publish the first public demo, make surveys, etc.
+
+Handle feedback and reception. Improve where possible.
+
+"Is there enough interest?"
+
+### 0.6+
+
+Reveal the name of the game.
+
+Begin pre-technical-pre-PRE-alpha testing.
+
+Implement the rest of the features.
+
 ## Story/Environment
 
 A year in the very far future, in a futuristic city where robots with human-like behavior live peacefully (almost) with the minority of humans that are still alive -- after a sudden and unexpected change in radiation levels from the sun almost killed them all.
@@ -322,52 +368,6 @@ There's no control over the GC (Garbage Collector) in Javascript when running in
 Deal with different browsers and different computer setups. The bare-minimum setup is a modern browser able to run WebGL. I am thinking IE9 and above.
 
 Multiplayer is a huge challenge in itself.
-
-## Roadmap
-
-### 0.1 - Proof of Concept
-
-Develop a very basic character, with one attack, and walk forward/backward. 
-
-Test the concept of running a 3D character in Javascript and see how it performs. 
-
-Does it lag or glitch in any way? Does it memory-leak? Can the leak be addressed/fixed?
-
-"Can we go on?"
-
-### 0.2
-
-Improve character with two punches, two kicks, and make hitboxes work. Add enemy character. One single hit reaction.
-
-"Is it still viable?"
-
-### 0.3
-
-Implement crouching, and add basic crouching attacks.
-
-### 0.4
-
-Implement jumping, with basic aerial attacks. Add juggle hit reactions and physics.
-
-"How implementing physics impact the game performance?"
-
-### 0.5
-
-Implement a "Match": health and special bars, rounds, time limit, teams.
-
-Publish the first public demo, make surveys, etc.
-
-Handle feedback and reception. Improve where possible.
-
-"Is there enough interest?"
-
-### 0.6+
-
-Reveal the name of the game.
-
-Begin pre-technical-pre-PRE-alpha testing.
-
-Implement the rest of the features.
 
 ## More Images
 
