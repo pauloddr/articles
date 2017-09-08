@@ -249,87 +249,131 @@ I usually post screens of my work on [Twitter](https://twitter.com/paulo_ddr).
 
 ## Characters
 
-Tentative list of initial playable NPCs (non-player characters).
+Tentative list of initial playable NPCs (non-player characters) and character select screen disposition.
 
-### Artists
+<table align="center">
+ <tr>
+  <th>Rogues</th>
+  <th>Artists</th>
+  <th>Enforcers</th>
+ </tr>
+ <tr>
 
-#### Tera
+  <td align="center">
+   <br/><b>JET</b><br/><br/>
 
-* Female, Student
-* Fighting Style: Karate
-* Keywords: zoner, balanced
+Male, Cage Fighter<br/>
+Fighting Style: Muay Thai<br/>
+Keywords: critical, burst
+  </td>
+  
+  <td align="center">
+   <br/><b>TERA</b><br/><br/>
 
-#### Andromeda
+Female, Student<br/>
+Fighting Style: Karate<br/>
+Keywords: zoner, balanced
+  </td>
+  
+  <td align="center">
+   <br/><b>PROTO</b><br/><br/>
 
-* Male, Acolyte
-* Fighting Style: ?
-* Keywords: blind, grappler
+Male, Police Officer<br/>
+Fighting Style: Savate<br/>
+Keywords: rushdown, combo
+  </td>
+  
+ </tr>
+ 
+ <tr>
+ 
+  <td align="center">
+   <br/><b>SPARKLE</b><br/><br/>
 
-#### Carrion
+Female, Dancer<br/>
+Fighting Style: ?<br/>
+Keywords: ?
+  </td>
+  
+  <td align="center">
+   <br/><b>ANDROMEDA</b><br/><br/>
 
-* Female, Housewife
-* Fighting Style: Kung Fu
-* Keywords: ?
+Male, Acolyte<br/>
+Fighting Style: ?<br/>
+Keywords: blind, grappler
+  </td>
+  
+  <td align="center">
+   <br/><b>CYBEL</b><br/><br/>
 
-#### Tick
+Female, Doctor<br/>
+Fighting Style: ?<br/>
+Keywords: acrobat, aerial
+  </td>
+ 
+ </tr>
+ 
+ <tr>
+ 
+  <td align="center">
+   <br/><b>BLACKOUT</b><br/><br/>
 
-* Male, Merchant
-* Fighting Style: ?
-* Keywords: teleport
 
-### Enforcers
+Male, Bodyguard<br/>
+Fighting Style: ?<br/>
+Keywords: dirty
+  </td>
+  
+  <td align="center">
+   <br/><b>CARRION</b><br/><br/>
 
-#### Proto
+Female, Housewife<br/>
+Fighting Style: Kung Fu<br/>
+Keywords: ?
 
-* Male, Police Officer
-* Fighting Style: Savate
-* Keywords: rushdown, combo
+  </td>
+  
+  <td align="center">
+   <br/><b>HAMMER</b><br/><br/>
 
-#### Cybel
+Male, Fireman<br/>
+Fighting Style: Wrestling<br/>
+Keywords: grappler
+  </td>
+ 
+ </tr>
+ 
+ <tr>
+ 
+  <td align="center">
+   <br/><b>AMP</b><br/><br/>
 
-* Female, Doctor
-* Fighting Style: ?
-* Keywords: acrobat, aerial
+Female, Bounty Hunter<br/>
+Fighting Style: Boxing<br/>
+Keywords: rushdown, sonic
+  </td>
+  
+  <td align="center">
+   <br/><b>TICK</b><br/><br/>
 
-#### Hammer
+Male, Merchant<br/>
+Fighting Style: ?<br/>
+Keywords: teleport
+  </td>
+  
+  <td align="center">
+   <br/><b>FANG *</b><br/><br/>
 
-* Male, Fireman
-* Fighting Style: Wrestling
-* Keywords: grappler
+Female, Investigator<br/>
+Fighting Style: ?<br/>
+Keywords: poison
+  </td>
+ 
+ </tr>
+ 
+</table>
 
-#### Fang
-
-* Female, Investigator
-* Fighting Style: ?
-* Keywords: poison
-
-Notes: probably going to change her name due to Fang being in SFV.
-
-### Rogues
-
-#### Jet
-
-* Male, Cage Fighter
-* Fighting Style: Muay Thai
-* Keywords: critical, burst
-
-#### Sparkle
-
-* Female, Dancer
-* Fighting Style: ?
-* Keywords: ?
-
-#### Blackout
-
-* Male, Bodyguard
-* Fighting Style: ?
-* Keywords: dirty
-
-#### Amp
-
-* Female, Bounty Hunter
-* Fighting Style: Boxing
-* Keywords: rushdown, sonic
+`*` Probably going to change her name due to Fang being in SFV.
 
 ## WIP
 
