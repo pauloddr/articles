@@ -82,6 +82,19 @@ In the game, the player him/herself takes the role of that human mentor, and the
 
 Canon Characters usually have NPC human mentors as well.
 
+## Control Scheme
+
+One directional, and four action buttons that control the character limbs:
+
+* Left Punch - X
+* Right Punch - Y
+* Left Kick - A
+* Right Kick - B
+
+EX skills are performed with two punch/kick buttons at the same time.
+
+Super skills are performed with additional directional motions.
+
 ## Expected Game Modes
 
 * Arcade Mode
@@ -280,19 +293,6 @@ Skill framedata (startup, active, recovery, hitstun, blockstun) are always fixed
 Skills are mostly related to specific martial arts, and some won't be able to be picked, for example, a wrestling skill for a kung fu fighter.
 
 But there will be a "Free Form" fighting style that allows a character to pick skills from multiple arts. Because of that, Free Form characters don't get the bonuses they otherwise would if they picked an specific style.
-
-## Control Scheme
-
-One directional, and four action buttons that control the character limbs:
-
-* Left Punch - X
-* Right Punch - Y
-* Left Kick - A
-* Right Kick - B
-
-EX skills are performed with two punch/kick buttons at the same time.
-
-Super skills are performed with additional directional motions.
 
 ## Meters
 
