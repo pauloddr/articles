@@ -89,6 +89,132 @@ The remaining styles are still being decided or worked on.
 
 Boss characters will feature mixed/free-form fighting styles.
 
+## Character Select Screen Disposition
+
+<table align="center">
+ <tr>
+  <th>Rogues<br/>:skull:</th>
+  <th>Artists<br/>:sunny:</th>
+  <th>Enforcers<br/>:cop:</th>
+ </tr>
+ <tr>
+
+  <td align="center">
+   <br/><b>JET</b><br/><br/>
+
+Male, Cage Fighter<br/>
+Fighting Style: Muay Thai<br/>
+Keywords: critical, burst
+  </td>
+  
+  <td align="center">
+   <br/><b>TERA</b><br/><br/>
+
+Female, Student<br/>
+Fighting Style: Karate<br/>
+Keywords: zoner, balanced
+  </td>
+  
+  <td align="center">
+   <br/><b>PROTO</b><br/><br/>
+
+Male, Police Officer<br/>
+Fighting Style: Savate<br/>
+Keywords: rushdown, combo
+  </td>
+  
+ </tr>
+ 
+ <tr>
+ 
+  <td align="center">
+   <br/><b>SPARKLE</b><br/><br/>
+
+Female, Dancer<br/>
+Fighting Style: ?<br/>
+Keywords: ?
+  </td>
+  
+  <td align="center">
+   <br/><b>ANDROMEDA</b><br/><br/>
+
+Male, Acolyte<br/>
+Fighting Style: ?<br/>
+Keywords: blind, grappler
+  </td>
+  
+  <td align="center">
+   <br/><b>CYBEL</b><br/><br/>
+
+Female, Doctor<br/>
+Fighting Style: ?<br/>
+Keywords: acrobat, aerial
+  </td>
+ 
+ </tr>
+ 
+ <tr>
+ 
+  <td align="center">
+   <br/><b>BLACKOUT</b><br/><br/>
+
+
+Male, Bodyguard<br/>
+Fighting Style: ?<br/>
+Keywords: dirty
+  </td>
+  
+  <td align="center">
+   <br/><b>CARRION</b><br/><br/>
+
+Female, Housewife<br/>
+Fighting Style: Kung Fu<br/>
+Keywords: ?
+
+  </td>
+  
+  <td align="center">
+   <br/><b>HAMMER</b><br/><br/>
+
+Male, Fireman<br/>
+Fighting Style: Wrestling<br/>
+Keywords: grappler
+  </td>
+ 
+ </tr>
+ 
+ <tr>
+ 
+  <td align="center">
+   <br/><b>AMP</b><br/><br/>
+
+Female, Bounty Hunter<br/>
+Fighting Style: Boxing<br/>
+Keywords: rushdown, sonic
+  </td>
+  
+  <td align="center">
+   <br/><b>TICK</b><br/><br/>
+
+Male, Merchant<br/>
+Fighting Style: ?<br/>
+Keywords: teleport
+  </td>
+  
+  <td align="center">
+   <br/><b>FANG *</b><br/><br/>
+
+Female, Investigator<br/>
+Fighting Style: ?<br/>
+Keywords: poison
+  </td>
+ 
+ </tr>
+ 
+</table>
+
+`*` Probably going to change her name due to Fang being in SFV.
+
 ## Character Customization
 
 Players will be able to create their own characters and customize them, both visually and gameplay-wise.
@@ -246,134 +372,6 @@ Implement the rest of the features.
 ## More Images
 
 I usually post screens of my work on [Twitter](https://twitter.com/paulo_ddr).
-
-## Characters
-
-Tentative list of initial playable NPCs (non-player characters) and character select screen disposition.
-
-<table align="center">
- <tr>
-  <th>Rogues</th>
-  <th>Artists</th>
-  <th>Enforcers</th>
- </tr>
- <tr>
-
-  <td align="center">
-   <br/><b>JET</b><br/><br/>
-
-Male, Cage Fighter<br/>
-Fighting Style: Muay Thai<br/>
-Keywords: critical, burst
-  </td>
-  
-  <td align="center">
-   <br/><b>TERA</b><br/><br/>
-
-Female, Student<br/>
-Fighting Style: Karate<br/>
-Keywords: zoner, balanced
-  </td>
-  
-  <td align="center">
-   <br/><b>PROTO</b><br/><br/>
-
-Male, Police Officer<br/>
-Fighting Style: Savate<br/>
-Keywords: rushdown, combo
-  </td>
-  
- </tr>
- 
- <tr>
- 
-  <td align="center">
-   <br/><b>SPARKLE</b><br/><br/>
-
-Female, Dancer<br/>
-Fighting Style: ?<br/>
-Keywords: ?
-  </td>
-  
-  <td align="center">
-   <br/><b>ANDROMEDA</b><br/><br/>
-
-Male, Acolyte<br/>
-Fighting Style: ?<br/>
-Keywords: blind, grappler
-  </td>
-  
-  <td align="center">
-   <br/><b>CYBEL</b><br/><br/>
-
-Female, Doctor<br/>
-Fighting Style: ?<br/>
-Keywords: acrobat, aerial
-  </td>
- 
- </tr>
- 
- <tr>
- 
-  <td align="center">
-   <br/><b>BLACKOUT</b><br/><br/>
-
-
-Male, Bodyguard<br/>
-Fighting Style: ?<br/>
-Keywords: dirty
-  </td>
-  
-  <td align="center">
-   <br/><b>CARRION</b><br/><br/>
-
-Female, Housewife<br/>
-Fighting Style: Kung Fu<br/>
-Keywords: ?
-
-  </td>
-  
-  <td align="center">
-   <br/><b>HAMMER</b><br/><br/>
-
-Male, Fireman<br/>
-Fighting Style: Wrestling<br/>
-Keywords: grappler
-  </td>
- 
- </tr>
- 
- <tr>
- 
-  <td align="center">
-   <br/><b>AMP</b><br/><br/>
-
-Female, Bounty Hunter<br/>
-Fighting Style: Boxing<br/>
-Keywords: rushdown, sonic
-  </td>
-  
-  <td align="center">
-   <br/><b>TICK</b><br/><br/>
-
-Male, Merchant<br/>
-Fighting Style: ?<br/>
-Keywords: teleport
-  </td>
-  
-  <td align="center">
-   <br/><b>FANG *</b><br/><br/>
-
-Female, Investigator<br/>
-Fighting Style: ?<br/>
-Keywords: poison
-  </td>
- 
- </tr>
- 
-</table>
-
-`*` Probably going to change her name due to Fang being in SFV.
 
 ## WIP
 
