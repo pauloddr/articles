@@ -333,8 +333,47 @@ Each point increases the mentioned attributes by 1% each. So Vitality enhances H
 It's a linear system, without diminishing returns on the base value. That way, players won't feel "forced" to balance out their attributes just because investing in a single node is less effective. If players want to invest everything in Strength and Vitality, so be it, but they will move and recover slower, cause less stun, have weak SP generation, etc.
 
 It also brings offense and defense more in line: a character with max offense will take out a character with max defense in the same time it would take if both of them had no bonuses at all. No attributes "multiply" around each other: that's why I don't plan on implementing a mechanic for "damage resistance", for example, because it multiplies around Health points, thus causing potential balance issues.
+     
+## AI Leagues
+
+The AI (Artificial Intelligence) in this game will be used for all CPU-controlled robots and also have its own mode.
+
+Developing an AI involves creating a tree of decisions the robot will make based on a number of criteria.
+
+A full game mode, called __AI Leagues__, will be available for players to take advantage of building the most perfect AIs possible.
+
+The robots are purely controlled by the AI built by the player. The player won't be able to control the robots in this mode.
+
+Players will take their robots to championships (Leagues) where each robot in the league fights other players' robots (or NPCs, if not enough players register). Each participant fights each other in a League at least once.
+
+Rankings will be based on W/L ratio (both of matches and rounds), with total damage received (the less the better) being used as tie breaker.
+
+Those Leagues are run ONLINE (in other words: on a server), with the replays being available for the player and general public to watch. All fights will run on a schedule, and they will be able to be watched as they happen -- leaderboards being updated in real time as well.
+
+League Tiers:
+
+* Local Leagues - player goes to an specific gym in the city and registers their characters in their leagues. Those are run daily.
+* District Leagues - player registers their characters on district leagues that are run weekly.
+* Regional Leagues - players registers their characters on city leagues that are run bi-weekly.
+* Major Leagues - player registers their characters on country-wide leagues that are run monthly.
+* Global Leagues - player registers their characters on worldwide leagues that are run over the course of three months.
+
+Characters will need to unlock the next tiers by placing above certain ranks in the leaderboard. Once a character unlocks the next tier, it (usually) can not return to the previous tier. So characters that are dominating in Local Leagues, once they get "promoted" to the next tier, they can no longer play Locals. This makes Local Leagues more of an entry point, and gives everyone a fair chance. Rewards will be balanced around this, so playing on District Leagues (which take longer) yields similar rewards as running Local Leagues seven times (and so on). In practice, this will be reflected on the number of contestants allowed in those Tiers, as the more they fight, the more rewards they earn.
+
+Entering a League costs a fee in in-game credits.
+
+Rewards for all League Tiers:
+
+* League XP - participating in a League gives that character "League XP" which can be used to improve their AI skills. All characters earn the same amount of XP, regardless of placement. The higher the League Tier, the higher the reward.
+* Normal XP - characters will earn a reduced amount of normal XP in this mode.
+* Credits - the better the placement, the more credits are awarded. Depending on placement, players will earn back what they paid to enter the League. If character keeps performing poorly, player will end up losing credits.
+* Unique rewards are being considered for the best contenders, such as gear, titles, etc.
+
+Some rewards are immediately earned as soon as a participant finishes a round (win or lose) in the League. The player will be able to improve/change the character over the course of a League. Additional rewards (related to placement) will be earned after all fights are finished.
 
 ## Multiplayer
+
+The Online Versus mode as we know it, with characters controlled by players.
 
 This is still pretty much a research. I'm not sure it will be technically viable for a Javascript game.
 
@@ -363,16 +402,105 @@ But everything here is a tall order.
 
 ## Technical Challenges
 
-There's no control over the GC (Garbage Collector) in Javascript when running in the browser. Every time the GC runs, a "hiccup" (freeze) could be expected. Solution: avoid creating new objects during gameplay. (This will be tough.) Or, find a way to take control over GC in the browser.
+There's no control over the GC (Garbage Collector) in Javascript when running in the browser. Every time the GC runs, a "hiccup" (freeze) could be expected, depending on how many objects are made available for the GC to free. Solution: avoid creating new objects during gameplay. (This will be tough.)
 
 Deal with different browsers and different computer setups. The bare-minimum setup is a modern browser able to run WebGL. I am thinking IE9 and above.
 
 Multiplayer is a huge challenge in itself.
 
-## More Images
+## Monetization
 
-I usually post screens of my work on [Twitter](https://twitter.com/paulo_ddr).
+As I intend to work on games for a living, by all means I plan on monetizing this game, if technical challenges are resolved.
+
+### Trial Version
+
+The Trial Version is intended to give players a basic notion of how the game plays.
+
+* No account registration required.
+* Tera as a free playable character.
+* Only one mode available: VS CPU.
+* Can adjust controls and some game options.
+
+Any purchases will require the player to register for an account.
+
+### Coin System (Gold/Silver)
+
+Registering for an account allows the player to purchase Gold coins (with real money), which are then used to make purchases in store.
+
+There will be ways to earn free Gold coins, such as answering surveys, advertising the game, and so on.
+
+Silver coins will be able to be earned through normal gameplay. Some items in the store will be purchasable with Silver coins.
+
+Silver coins cannot be converted to Gold coins.
+
+### Ads
+
+The game may display external ads if no purchases are made. Players are free to block them if they want.
+
+Registering for an account, then making the first purchase of Gold coins, will remove ads forever.
+
+Earning free Gold coins (and not making any purchases) will not remove ads.
+
+### Full Base Game
+
+The full base game is a discounted package that includes the following:
+
+* 12 characters
+* 12 fighting styles
+* 14 stages
+* All model parts from unlocked characters
+* Modes: Arcade, Story, Versus, Training, AI Leagues
+* 12 Character Creation slots
+* 4 Costume Slots for each custom Character
+* Free-form fighting style.
+
+### Microtransactions
+
+If players do not want to purchase the full base game, they can purchase features separately.
+
+* Registering for an account unlocks Arcade Mode, Versus Mode (vs. Local Player), and Training Mode.
+  * Tera remains a free character after registration.
+* Story Modes are sold separately.
+* Characters, fighting styles, model parts, and stages can all be purchased separately.
+* Free-form fighting style:
+  * It only unlocks the _ability_ of using different skills from different fighting styles.
+  * The player still needs to purchase other fighting styles to make them available in Free-form.
+  * Free-form will cost the same as a single fighting style.
+* Character Creation is purchasable through Character Slots.
+  * Buying the first slot unlocks AI Leagues Mode.
+  * Each Custom Character has 2 Costume Slots available.
+  * More Costume Slots can be purchased separately, and they are account wide.
+  
+__Bundles__ are packages with multiple features for a discounted price.
+
+* Character Bundle: a single character, including the fighting style, stage, and all model parts belonging to that character, as well as a Character Slot.
+* Fighting Style Bundle: a single fighting style (Free-form included), with an additional Character Slot.
+
+### DLC
+
+Potential DLCs include:
+
+* More model parts or sets
+* Exotic fighting styles (e.g., Sport-themed arts)
+
+### Season Passes?
+
+Still not decided about this. I tend to like the idea of Expansion Packs instead of Season Passes. They seem like the same thing, but for some reason people tend to dislike the latter. Semantics, but hey.
+
+### Refund Policy
+
+Purchases of Gold coins (with real money) aren't refundable (usually).
+
+If players purchase anything that is part of a Bundle, then later decide to buy the Bundle itself, the previous transaction will be undone and refunded (as Gold/Silver coins, depending on what was used). This also applies to the full base game purchase.
+
+Additionally, if the player is not happy with a purchase, they can return it within 3 days of the purchase. This only applies to the first purchase of said feature though. If the player purchases the same feature a second time, it won't be able to be refunded this way.
+
+Full (real money) refunds can be considered if the player isn't happy at all with the game and wants to close their account within a certain time after it has been created.
+
+## News and Updates
+
+I usually report my progress on [Twitter](https://twitter.com/paulo_ddr).
 
 ## WIP
 
-This is a work in progress.
+As this is a Work In Progress, all information is subject to change.
