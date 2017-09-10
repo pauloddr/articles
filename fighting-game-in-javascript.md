@@ -72,16 +72,6 @@ Begin pre-technical-pre-PRE-alpha testing.
 
 Implement the rest of the features.
 
-## Story/Environment
-
-The story of the game happens some year in the very far future, in a futuristic city where robots with human-like behavior live peacefully (almost) with the minority of humans that are still alive -- after a sudden and unexpected change in radiation levels from the sun almost killed them all.
-
-Each robot shares the memories of a deceased human in the form of a synthetic "brain" that is able to learn new things and make decisions, just like humans. Despite being their own "persons", robots usually have a "human mentor" that maintains and guides them. Due to the large disparity between the population of robots and humans, many robots do not have human mentors, many humans mentor more than one robot, and robots may have other robots as mentors.
-
-__In the game, the player him/herself takes the role of a human mentor of the robots they create using the "Create a Character" feature.__
-
-NPC robots usually have NPC mentors (human or robot) as well.
-
 ## Control Scheme
 
 One directional, and four action buttons that control the character limbs:
@@ -107,6 +97,16 @@ Super skills are performed with additional directional motions.
   * Create a Character
 * Offline Tournaments
   * AI Leagues
+  
+## Story/Environment
+
+The story of the game happens some year in the very far future, in a futuristic city where robots with human-like behavior live peacefully (almost) with the minority of humans that are still alive -- after a sudden and unexpected change in radiation levels from the sun almost killed them all.
+
+Each robot shares the memories of a deceased human in the form of a synthetic "brain" that is able to learn new things and make decisions, just like humans. Despite being their own "persons", robots usually have a "human mentor" that maintains and guides them. Due to the large disparity between the population of robots and humans, many robots do not have human mentors, many humans mentor more than one robot, and robots may have other robots as mentors.
+
+__In the game, the player him/herself takes the role of a human mentor of the robots they create using the "Create a Character" feature.__
+
+NPC robots usually have NPC mentors (human or robot) as well.
   
 ## Characters and Factions
 
