@@ -376,17 +376,23 @@ AI Skills are mirrored after abilities necessary for people to succeed in fighti
 * __Execution__: how fast skill inputs are entered, and without mistakes
   * Robots will also "input directional and button presses" just like players would do
   * A low execution skill will make the robot miss commands and combos
-* __Reaction__: how fast robots react to skills used against them
+* __Reaction__: how robots react to skills used against them in a way that the enemy ends up punished
   * Robots will "memorize" skills the more they're used against them
   * Low reaction skills will make the robots make a decision too late, or a bad one
-* __Confirms__: how precisely the robot can follow up after a skill hit/blocked/whiffed
-  * A "hit confirm" allows the robot to hit another skill in succession after the enemy has been hit
-    * And also *not* to follow up with another skill if the first hit was blocked, preventing punishment
+  * Tech throwing, for example, falls under this category
+* __Confirms__: how precisely the robot follows up after a skill connects (or not)
+  * A "hit confirm" allows the robot to hit another skill in succession after the enemy has been successfully hit
+    * This is the essence of hit-confirms.
+    * Low execution skill may mess the timing of the follow-up skill and allow the enemy to block/counter.
+  * A "missed confirm" happens when the robot hits with a skill, but misses the follow up
+    * This will be a missed opportunity, but not yield negative results to the attacker.
+    * Wrong execution (caused by low execution skill) that prevents the follow-up skill to execute does not count as a "missed confirm".
   * A "blocked confirm" will make the robot follow up with another skill after the enemy blocked the first hit
-    * This will usually make the attacking robot vulnerable to punishment
-  * A "blank confirm" will make the robot follow up with another skill *anyway*. This is a grey area which may have positive or negative consequences for the robot performing the attacks.
+    * This will usually make the attacking robot vulnerable to punishment.
+  * A "blank confirm" will make the robot execute the first and follow-up skills "in thin air"
+    * This is a grey area which may have positive or negative consequences for the robot performing the attacks.
     * This is like executing an skill after another that may or may not hit the enemy because they're moving, jumping, etc.
-  * Having high confirm skills allows the "hit confirm" chance to be higher, diminishing the other two chances.
+  * Having high confirm skills allows the "hit confirm" chance to be higher, decreasing the other chances.
 
 AI Skills can not be enhanced in a way that they're always successful. There will always be a small chance for AI Skills to fail.
 
