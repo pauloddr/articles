@@ -383,19 +383,19 @@ AI Skills are mirrored after abilities necessary for people to succeed in fighti
   * A "hit confirm" allows the robot to hit another skill in succession after the enemy has been successfully hit
     * This is the essence of hit-confirms.
     * Low execution skill may mess the timing of the follow-up skill and allow the enemy to block/counter.
-  * A "missed confirm" happens when the robot hits with a skill, but misses the follow up
+  * A "missed confirm" happens when the robot successfully hits with a skill, but does not execute the follow up
     * This will be a missed opportunity, but not yield negative results to the attacker.
     * Wrong execution (caused by low execution skill) that prevents the follow-up skill to execute does not count as a "missed confirm".
   * A "blocked confirm" will make the robot follow up with another skill after the enemy blocked the first hit
     * This will usually make the attacking robot vulnerable to punishment.
   * A "blank confirm" will make the robot execute the first and follow-up skills "in thin air"
     * This is a grey area which may have positive or negative consequences for the robot performing the attacks.
-    * This is like executing an skill after another that may or may not hit the enemy because they're moving, jumping, etc.
+    * This is like executing an skill after another that may or may not hit the enemy because they're moving a lot, jumping around, etc -- like "fishing" for a hit
   * Having high confirm skills allows the "hit confirm" chance to be higher, decreasing the other chances.
 
 AI Skills can not be enhanced in a way that they're always successful. There will always be a small chance for AI Skills to fail.
 
-Other fighting game skills such as "Meaties" (making skills hit at the last possible active frame), Conditioning (making the enemy perform something based on a pattern) and "the Shimmy" (walking away from close range after conditioning the enemy to throw) can be simulated by building the behaviors and decisions of the robot in the normal AI building process.
+Other fighting game skills such as "Meaties" (making skills hit at the last possible active frame), "Conditioning" (making the enemy perform something based on a pattern) and "the Shimmy" (walking away from close range after conditioning the enemy to throw) can be simulated by building the behaviors and decisions of the robot in the normal AI building process.
 
 ## Multiplayer
 
