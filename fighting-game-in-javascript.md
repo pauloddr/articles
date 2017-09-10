@@ -95,7 +95,6 @@ Super skills are performed with additional directional motions.
   * "My Story" Mode
 * Creation Mode
   * Create a Character
-* Offline Tournaments
   * AI Leagues
   
 ## Story/Environment
