@@ -74,22 +74,22 @@ Implement the rest of the features.
 
 ## Story/Environment
 
-A year in the very far future, in a futuristic city where robots with human-like behavior live peacefully (almost) with the minority of humans that are still alive -- after a sudden and unexpected change in radiation levels from the sun almost killed them all.
+The story of the game happens some year in the very far future, in a futuristic city where robots with human-like behavior live peacefully (almost) with the minority of humans that are still alive -- after a sudden and unexpected change in radiation levels from the sun almost killed them all.
 
-Each robot shares the memories of a deceased human in the form of a synthetic "brain" that is able to learn new things and make decisions, just like humans. Despite being their own "persons", robots usually have a "human mentor" that maintains and guides them. Due to disparity between the population of robots and humans, many robots do not have human mentors, and many humans mentor more than one robot.
+Each robot shares the memories of a deceased human in the form of a synthetic "brain" that is able to learn new things and make decisions, just like humans. Despite being their own "persons", robots usually have a "human mentor" that maintains and guides them. Due to the large disparity between the population of robots and humans, many robots do not have human mentors, many humans mentor more than one robot, and robots may have other robots as mentors.
 
-In the game, the player him/herself takes the role of that human mentor, and the robots that populate the world are the fighters they create using the "Create a Character" feature, plus the NPCs.
+__In the game, the player him/herself takes the role of a human mentor of the robots they create using the "Create a Character" feature.__
 
-Canon Characters usually have NPC human mentors as well.
+NPC robots usually have NPC mentors (human or robot) as well.
 
 ## Control Scheme
 
 One directional, and four action buttons that control the character limbs:
 
-* Left Punch - X
-* Right Punch - Y
-* Left Kick - A
-* Right Kick - B
+* Left Punch
+* Right Punch
+* Left Kick
+* Right Kick
 
 EX skills are performed with two punch/kick buttons at the same time.
 
@@ -288,11 +288,11 @@ Leveling up allows characters to learn skills. Skills vary from stances to attac
 
 Each skill can be leveled up as well, and enhanced as the player wishes. Skills can have increased damage, stun generation, block damage, generate more SP, and so on. 
 
-Skill framedata (startup, active, recovery, hitstun, blockstun) are always fixed and cannot be changed in any way. This is to avoid balance issues.
+Skill framedata (startup, active, recovery, hitstun, blockstun) are usually fixed and not able to be changed. This is to avoid balance issues.
 
-Skills are mostly related to specific martial arts, and some won't be able to be picked, for example, a wrestling skill for a kung fu fighter.
+Skills are mostly related to specific martial arts, and some won't be able to be picked, for example, a wrestling skill for a kung fu fighter. Some skills can be reused by different fighting styles (e.g., a Roundhouse Kick).
 
-But there will be a "Free Form" fighting style that allows a character to pick skills from multiple arts. Because of that, Free Form characters don't get the bonuses they otherwise would if they picked an specific style.
+There will be a "Free Form" fighting style that allows a character to pick skills from multiple arts. Because of that, Free Form characters don't get the bonuses they otherwise would if they picked an specific style.
 
 ## Meters
 
@@ -346,7 +346,7 @@ The robots are purely controlled by the AI built by the player. The player won't
 
 Players will take their robots to championships (Leagues) where each robot in the league fights other players' robots (or NPCs, if not enough players register). Each participant fights each other in a League at least once.
 
-Rankings will be based on W/L ratio (both of matches and rounds), with total damage received (the less the better) being used as tie breaker.
+Rankings will be based on W/L ratio (both of matches and rounds), with total damage dealt being used as tie breaker.
 
 Those Leagues are run ONLINE (in other words: on a server), with the replays being available for the player and general public to watch. All fights will run on a schedule, and they will be able to be watched as they happen -- leaderboards being updated in real time as well.
 
@@ -360,20 +360,41 @@ League Tiers:
 
 Characters will need to unlock the next tiers by placing above certain ranks in the leaderboard. Once a character unlocks the next tier, it (usually) can not return to the previous tier. So characters that are dominating in Local Leagues, once they get "promoted" to the next tier, they can no longer play Locals. This makes Local Leagues more of an entry point, and gives everyone a fair chance. Rewards will be balanced around this, so playing on District Leagues (which take longer) yields similar rewards as running Local Leagues seven times (and so on). In practice, this will be reflected on the number of contestants allowed in those Tiers, as the more they fight, the more rewards they earn.
 
-Entering a League costs a fee in in-game credits.
+Entering a League costs a fee of in-game credits.
 
 Rewards for all League Tiers:
 
-* League XP - participating in a League gives that character "League XP" which can be used to improve their AI skills. All characters earn the same amount of XP, regardless of placement. The higher the League Tier, the higher the reward.
+* League XP - participating in a League gives that character "League XP" which can be used to improve their AI skills. All characters earn the same amount of XP, regardless of placement.
 * Normal XP - characters will earn a reduced amount of normal XP in this mode.
 * Credits - the better the placement, the more credits are awarded. Depending on placement, players will earn back what they paid to enter the League. If character keeps performing poorly, player will end up losing credits.
 * Unique rewards are being considered for the best contenders, such as gear, titles, etc.
 
 Some rewards are immediately earned as soon as a participant finishes a round (win or lose) in the League. The player will be able to improve/change the character over the course of a League. Additional rewards (related to placement) will be earned after all fights are finished.
 
+AI Skills are mirrored after abilities necessary for people to succeed in fighting games:
+
+* __Execution__: how fast skill inputs are entered, and without mistakes
+  * Robots will also "input directional and button presses" just like players would do
+  * A low execution skill will make the robot miss commands and combos
+* __Reaction__: how fast robots react to skills used against them
+  * Robots will "memorize" skills the more they're used against them
+  * Low reaction skills will make the robots make a decision too late, or a bad one
+* __Confirms__: how precisely the robot can follow up after a skill hit/blocked/whiffed
+  * A "hit confirm" allows the robot to hit another skill in succession after the enemy has been hit
+    * And also *not* to follow up with another skill if the first hit was blocked, preventing punishment
+  * A "blocked confirm" will make the robot follow up with another skill after the enemy blocked the first hit
+    * This will usually make the attacking robot vulnerable to punishment
+  * A "blank confirm" will make the robot follow up with another skill *anyway*. This is a grey area which may have positive or negative consequences for the robot performing the attacks.
+    * This is like executing an skill after another that may or may not hit the enemy because they're moving, jumping, etc.
+  * Having high confirm skills allows the "hit confirm" chance to be higher, diminishing the other two chances.
+
+AI Skills can not be enhanced in a way that they're always successful. There will always be a small chance for AI Skills to fail.
+
+Other fighting game skills such as "Meaties" (making skills hit at the last possible active frame), Conditioning (making the enemy perform something based on a pattern) and "the Shimmy" (walking away from close range after conditioning the enemy to throw) can be simulated by building the behaviors and decisions of the robot in the normal AI building process.
+
 ## Multiplayer
 
-The Online Versus mode as we know it, with characters controlled by players.
+This is the Online Versus mode as we know it, with characters controlled by players.
 
 This is still pretty much a research. I'm not sure it will be technically viable for a Javascript game.
 
@@ -406,7 +427,7 @@ There's no control over the GC (Garbage Collector) in Javascript when running in
 
 Deal with different browsers and different computer setups. The bare-minimum setup is a modern browser able to run WebGL. I am thinking IE9 and above.
 
-Multiplayer is a huge challenge in itself.
+Multiplayer is a huge challenge all in itself.
 
 ## Monetization
 
@@ -418,7 +439,7 @@ The Trial Version is intended to give players a basic notion of how the game pla
 
 * No account registration required.
 * Tera as a free playable character.
-* Only one mode available: VS CPU.
+* Only one mode available: Versus CPU.
 * Can adjust controls and some game options.
 
 Any purchases will require the player to register for an account.
@@ -458,7 +479,7 @@ The full base game is a discounted package that includes the following:
 
 If players do not want to purchase the full base game, they can purchase features separately.
 
-* Registering for an account unlocks Arcade Mode, Versus Mode (vs. Local Player), and Training Mode.
+* Registering for an account unlocks for free: Arcade Mode, Versus Mode (vs. Local Player), and Training Mode.
   * Tera remains a free character after registration.
 * Story Modes are sold separately.
 * Characters, fighting styles, model parts, and stages can all be purchased separately.
@@ -473,7 +494,7 @@ If players do not want to purchase the full base game, they can purchase feature
   
 __Bundles__ are packages with multiple features for a discounted price.
 
-* Character Bundle: a single character, including the fighting style, stage, and all model parts belonging to that character, as well as a Character Slot.
+* Character Bundle: a single character, including the fighting style, stage, character story, and all model parts belonging to that character, as well as a Character Slot.
 * Fighting Style Bundle: a single fighting style (Free-form included), with an additional Character Slot.
 
 ### DLC
@@ -485,7 +506,7 @@ Potential DLCs include:
 
 ### Season Passes?
 
-Still not decided about this. I tend to like the idea of Expansion Packs instead of Season Passes. They seem like the same thing, but for some reason people tend to dislike the latter. Semantics, but hey.
+Still not decided about this. I tend to like the idea of Expansion Packs instead of Season Passes. They seem like the same thing, but for some reason people tend to dislike the latter. Semantics...
 
 ### Refund Policy
 
