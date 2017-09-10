@@ -471,25 +471,25 @@ Earning free Gold coins (and not making any purchases) will not remove ads.
 
 The full base game is a discounted package that includes the following:
 
-* 12 characters
-* 12 fighting styles
-* 14 stages
+* 12 Characters
+* 12 Fighting Styles + Free Form
+* 14 Stages
 * All model parts from unlocked characters
-* Modes: Arcade, Story, Versus, Training, AI Leagues
-* 12 Character Creation slots
+* Modes: Arcade, Story, Versus, Training, Character Creation, AI Leagues
+* 13 Character Slots (one for each Fighting style + Free Form)
 * 4 Costume Slots for each custom Character
-* Free-form fighting style.
 
 ### Microtransactions
 
 If players do not want to purchase the full base game, they can purchase features separately.
 
 * Registering for an account unlocks for free: Arcade Mode, Versus Mode (vs. Local Player), and Training Mode.
-  * Tera remains a free character after registration.
+* After registration, unlock one of the following characters for free: __Tera__, __Proto__, or __Jet__.
+  * This does not unlock anything else, just the characters.
 * Story Modes are sold separately.
 * Characters, fighting styles, model parts, and stages can all be purchased separately.
 * Free-form fighting style:
-  * It only unlocks the _ability_ of using different skills from different fighting styles.
+  * It basically unlocks the _ability_ of using different skills from different fighting styles.
   * The player still needs to purchase other fighting styles to make them available in Free-form.
   * Free-form will cost the same as a single fighting style.
 * Character Creation is purchasable through Character Slots.
@@ -518,6 +518,8 @@ Still not decided about this. I tend to like the idea of Expansion Packs instead
 Purchases of Gold coins (with real money) aren't refundable (usually).
 
 If players purchase anything that is part of a Bundle, then later decide to buy the Bundle itself, the previous transaction will be undone and refunded (as Gold/Silver coins, depending on what was used). This also applies to the full base game purchase.
+
+The free character unlocked upon registering for an account counts as a Silver coins transaction. If the player later purchases a Bundle containing the chosen character, an amount of Silver coins will be refunded.
 
 Additionally, if the player is not happy with a purchase, they can return it within 3 days of the purchase. This only applies to the first purchase of said feature though. If the player purchases the same feature a second time, it won't be able to be refunded this way.
 
