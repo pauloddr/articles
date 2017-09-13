@@ -38,8 +38,8 @@ Random notes about a hopeful weapon-pack for my fighting game.
 |Finger Blades|very short|both|pointed|curvy|compatible with "Primal Arts" fighting style|
 |Tonfa|short|both|none|straight|
 |Staff|long|both|none|straight|
-|Nightclub|short|any|none|straight|
-|Stick|average|both|none|straight|dual-wielding nightclubs allows "fusion" into a stick|
+|Nightstick|short|any|none|straight|
+|Stick|average|both|none|straight|dual-wielding nightsticks allows "fusion" into a stick|
 |Nunchaku|average|both|none|straight|
 |Whip|very long|both|none|
 |Club/Mace/Bat|average|any|none|
