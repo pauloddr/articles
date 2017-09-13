@@ -52,7 +52,7 @@ Random notes about a hopeful weapon-pack for my fighting game.
 |Weapons Master|various|various|various|various|knife and dagger (upper arms); longsword (waist); arm shield; dual pistols (legs); whip (waist); assault rifle (lower back); shotgun rifle (upper back); shuriken (tertiary weapon)|
 |Ice Weapons|various|various|various|various|attacks morph into several weapons; low defense and offense|
 |Great Arms|giant|both|single||giant arms that reach the ground|
-|Energy Blade|various|any|double|various|a hilt/bayard that shapes into different kinds of blades; low defense and offense|
+|Energy Blade|various|any|double|various|a hilt/bayard that projects different kinds of shapes; low defense and offense|
 |Dancing Swords|average|all|double|straight|six floating blades, controllable by punches and kicks|
-|Wing Blades|giant|both|double||
+|Wing Blades|giant|both|double||can not really fly with them :P|
 
