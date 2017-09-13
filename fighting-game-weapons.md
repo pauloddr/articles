@@ -34,7 +34,7 @@ Random notes about a hopeful weapon-pack for my fighting game.
 |Rapier|average|left|double|straight|
 |Glaive|long|both|single|straight|
 |Claw|short|both|single|straight or curvy|
-|Blade Arm|short|both|double|straight|attachable to hand (like a claw, but is used differently); blade extends like a third arm|
+|Blade Arm|short|both|double|straight|attachable to hand (like a claw, but is used differently); blade extends like a third part of the arm|
 |Finger Blades|very short|both|pointed|curvy|compatible with "Primal Arts" fighting style|
 |Tonfa|short|both|none|straight|
 |Staff|long|both|none|straight|
@@ -49,7 +49,7 @@ Random notes about a hopeful weapon-pack for my fighting game.
 |Shotgun Rifle|average|both|piercing|
 |Submachine Gun|average|any|piercing|
 |Assault Rifle|average|both|piercing|
-|Weapons Master|various|various|various|various|knife and dagger (upper arms); longsword (waist); arm shield; dual pistols (legs); whip (waist); assault rifle (lower back); shotgun rifle (upper back); shuriken (tertiary weapon)|
+|Weapons Master|various|various|various|various|attacks quickly draw and holster several weapons: knife and dagger (upper arms); longsword (waist); arm shield; dual pistols (legs); whip (waist); assault rifle (lower back); shotgun rifle (upper back); shuriken (tertiary weapon)|
 |Ice Weapons|various|various|various|various|attacks morph into several weapons; low defense and offense|
 |Great Arms|giant|both|single||giant arms that reach the ground|
 |Energy Blade|various|any|double|various|a hilt/bayard that projects different kinds of shapes; low defense and offense|
