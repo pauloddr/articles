@@ -9,6 +9,8 @@ Random notes about a hopeful weapon-pack for my fighting game.
 * Hands:
   * Any: left, or right.
   * Both: for two-handed weapons.
+* Firearms:
+  * Bullets are not as lethal. :)
 
 ## Weapon List
 
