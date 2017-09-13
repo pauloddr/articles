@@ -2,15 +2,16 @@
 
 Random notes about a hopeful weapon-pack for my fighting game.
 
-* Left and right hands can hold one weapon each, and they don't need to be the same type.
-  * Combine almost anything: Gladius + Shield, Dual Daggers, etc.
-* Weapon users do not have "Shield" points (will be replaced by something else).
-  * This allows weapon users to fight bare handed fighters on a more equal footing.
 * Hands:
   * Any: left, or right.
   * Both: for two-handed weapons.
+  * Can wear different weapons in each hand. (Combine almost anything!)
 * Firearms:
-  * Bullets are not as lethal. :)
+  * Bullets are not as lethal in combat. :P
+* Tertiary Weapons:
+  * Small, throwable weapons.
+  * Can have two weapons plus a tertiary one.
+  * Some weapon types do not allow tertiary weapons.
 
 ## Weapon List
 
