@@ -46,10 +46,10 @@ Random notes about a hopeful weapon-pack for my fighting game.
 |Axe/Hammer|average|any/both|
 |Bow and Arrow|average|both|piercing|
 |Pistol|small|any|piercing|
-|Rifle|average|both|piercing|
+|Shotgun Rifle|average|both|piercing|
 |Submachine Gun|average|any|piercing|
 |Assault Rifle|average|both|piercing|
-|Weapons Master|various|various|various|various|knife and dagger (upper arms); longsword (waist); arm shield; dual pistols (legs); whip (waist); assault rifle (lower back); shuriken (tertiary weapon)|
+|Weapons Master|various|various|various|various|knife and dagger (upper arms); longsword (waist); arm shield; dual pistols (legs); whip (waist); assault rifle (lower back); shotgun rifle (upper back); shuriken (tertiary weapon)|
 |Ice Weapons|various|various|various|various|attacks morph into several weapons; low defense and offense|
 |Great Arms|giant|both|single||giant arms that reach the ground|
 |Energy Blade|various|any|double|various|a hilt/bayard that shapes into different kinds of blades; low defense and offense|
