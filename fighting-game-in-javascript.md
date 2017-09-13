@@ -245,7 +245,7 @@ Keywords: teleport
   </td>
   
   <td align="center">
-   <br/><b>FANG *</b><br/><br/>
+   <br/><b>TALON</b><br/><br/>
 
 Female, Investigator<br/>
 Fighting Style: ?<br/>
@@ -255,8 +255,6 @@ Keywords: poison
  </tr>
  
 </table>
-
-`*` Probably going to change her name due to Fang being in SFV.
 
 ## Character Customization
 
