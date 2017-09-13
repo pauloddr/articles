@@ -88,7 +88,9 @@ Super skills are performed with additional directional motions.
 ## Expected Game Modes
 
 * Arcade Mode
-* Local Versus Mode
+* Versus Modes
+  * Versus Local Player
+  * Versus CPU
 * Campaigns
   * Story Mode
   * Character Story Mode
@@ -101,53 +103,36 @@ Super skills are performed with additional directional motions.
 
 The story of the game happens some year in the very far future, in a futuristic city where robots with human-like behavior live peacefully (almost) with the minority of humans that are still alive -- after a sudden and unexpected change in radiation levels from the sun almost killed them all.
 
-Each robot shares the memories of a deceased human in the form of a synthetic "brain" that is able to learn new things and make decisions, just like humans. Despite being their own "persons", robots usually have a "human mentor" that maintains and guides them. Due to the large disparity between the population of robots and humans, many robots do not have human mentors, many humans mentor more than one robot, and robots may have other robots as mentors.
+Each robot shares the memories of a deceased human in the form of a synthetic "brain" that is able to learn new things and make decisions, just like humans. Despite being their own "persons", robots usually have a "human mentor" that maintains and guides them.
 
 __In the game, the player him/herself takes the role of a human mentor of the robots they create using the "Create a Character" feature.__
 
-NPC robots usually have NPC mentors (human or robot) as well.
+NPC robots usually have NPC mentors as well.
   
-## Characters and Factions
+## Characters, Factions, and Fighting Styles
 
-12 playable characters are being planned, divided among 3 factions:
+The game will feature 12 playable characters (initially).
+
+Each character knows a different fighting style, each from a distinct country of origin. A few styles are listed below:
+
+* Karate
+* Savate
+* Muay Thai
+* Kung Fu
+* Wrestling
+* Boxing
+
+Characters are divided among 3 factions:
 
 * Artists
 * Enforcers 
 * Rogues
 
-Each faction has 4 characters and 1 mid-boss (non-playable, initially). 
-
-One non-boss character stands out from each faction. The three of them form the game's team of protagonists:
-
-* one Artist (a student);
-* one Enforcer (a police officer);
-* and one Rogue (a cage fighter).
-
-There will be a final boss, not belonging to any faction.
-
-## Fighting Styles
-
-12 distinct martial arts will be featured, one for each playable character.
-
-Each martial art belongs to a different country, mostly related to the character's origin.
-
-The martial arts belonging to the protagonists, and their origins, are:
-
-* Artist - Karate (Japan)
-* Enforcer - Savate (France)
-* Rogue - Muay Thai (Thailand)
-
-Other martial arts decided upon, and their origins, are:
-
-* Artists: Kung Fu (China)
-* Enforcers: Wrestling (Greece)
-* Rogues: Boxing (England)
-
-The remaining styles are still being decided or worked on.
-
-Boss characters will feature mixed/free-form fighting styles.
+Each faction has 4 characters and 1 mid-boss (non-playable, initially). There will be a final boss, not belonging to any faction. Bosses will feature a "Free Form" fighting style.
 
 ## Character Select Screen Disposition
+
+Here is a preview list of the 12 playable characters, their factions, ocupations, and fighting styles.
 
 <table align="center">
  <tr>
@@ -275,7 +260,7 @@ Keywords: poison
 
 ## Character Customization
 
-Players will be able to create their own characters and customize them, both visually and gameplay-wise.
+Aside from playing NPCs (Non-Player Characters), players will also be able to create their own characters and customize them, both visually and gameplay-wise.
 
 Players begin creating a character by choosing a fighting style. Each fighting style has a specific, themed bonus. (Example: kung fu fighters would earn a bonus to speed.)
 
@@ -325,13 +310,13 @@ The max level of a character will be 100, and each level gives one attribute poi
 * Charisma - reduces the time Focus and Shield begin recovering after you stop receiving attacks, and reduces stun duration.
   * You are loved! The support of your fans brings you to your feet faster! :)
 
-Along with Custom Characters, Canon and NPC Characters will also have their builds based on this system.
+Along with Custom Characters, NPC Characters will also have their builds based on this system.
 
 Each point increases the mentioned attributes by 1% each. So Vitality enhances HP by 50% when 50 points are invested, making it reach 1200 points.
 
 It's a linear system, without diminishing returns on the base value. That way, players won't feel "forced" to balance out their attributes just because investing in a single node is less effective. If players want to invest everything in Strength and Vitality, so be it, but they will move and recover slower, cause less stun, have weak SP generation, etc.
 
-It also brings offense and defense more in line: a character with max offense will take out a character with max defense in the same time it would take if both of them had no bonuses at all. No attributes "multiply" around each other: that's why I don't plan on implementing a mechanic for "damage resistance", for example, because it multiplies around Health points, thus causing potential balance issues.
+It also brings offense and defense more in line: a character with max offense will take out a character with max defense in the same time it would take if both of them had no bonuses at all. No attributes "multiply" around each other: that's why I don't plan on implementing a mechanic for "damage resistance" for example, because it multiplies around Health points, thus causing potential balance issues.
      
 ## AI Leagues
 
@@ -359,7 +344,7 @@ League Tiers:
 
 Characters will need to unlock the next tiers by placing above certain ranks in the leaderboard. Once a character unlocks the next tier, it (usually) can not return to the previous tier. So characters that are dominating in Local Leagues, once they get "promoted" to the next tier, they can no longer play Locals. This makes Local Leagues more of an entry point, and gives everyone a fair chance. Rewards will be balanced around this, so playing on District Leagues (which take longer) yields similar rewards as running Local Leagues seven times (and so on). In practice, this will be reflected on the number of contestants allowed in those Tiers, as the more they fight, the more rewards they earn.
 
-Entering a League costs a fee of in-game credits.
+Entering a League costs a fee of in-game credits. The higher the League Tier, the more expensive the fee will be.
 
 Rewards for all League Tiers:
 
