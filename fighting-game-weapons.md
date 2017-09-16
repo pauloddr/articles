@@ -33,6 +33,7 @@ Random notes about a hopeful weapon-pack for my fighting game.
 |Dagger|small|any|double|very low|
 |Kunai|very small|any|double|very low|throwable; also available as tertiary weapon|
 |Shuriken|very small|any|double|N/A|throwable; tertiary weapon __only__|
+|Fan|small|any|double|low|throwable|
 |Katana|average|any/both|single|low|
 |Wakizashi|short|any|single|low|
 |Kodachi|short|any|single|low|reverse grip only?|
