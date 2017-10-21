@@ -50,6 +50,7 @@ Random notes about a hopeful weapon-pack for my fighting game.
 |Stick|average|both|none|low|dual-wielding nightsticks allows "fusion" into a stick|
 |Nunchaku|average|both|none|low|
 |Whip|very long|both|none|very low|
+|Whip Sword|long|right|double|low|
 |Club/Mace/Bat|average|any|none|low|
 |Axe/Hammer|average|any/both||low|
 |Bow and Arrow|average|both|pointed|very low|
