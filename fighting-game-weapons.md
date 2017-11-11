@@ -41,13 +41,14 @@ Random notes about a hopeful weapon-pack for my fighting game.
 |Glaive|long|both|single|low|
 |Spear|long|both|double|low|throwable|
 |Lance|long|both|pointed|low|throwable; overlaps with spear?|
+|Scythe|long|both|single|low|
 |Claw|short|both|single|very low|
 |Blade Arm|short|both|double|very low|attachable to hand (like a claw, but is used differently); blade extends like a third part of the arm|
-|Finger Blades|very short|both|pointed|very low|compatible with "Primal Arts" fighting style|
+|Finger Blades|very short|both|pointed|very low|
 |Tonfa|short|both|none|high|high defense, low damage|
 |Staff|long|both|none|low|
 |Nightstick|short|any|none|low|
-|Stick|average|both|none|low|dual-wielding nightsticks allows "fusion" into a stick|
+|Cane/Stick|average|both|none|low|dual-wielding nightsticks allows "fusion" into a single stick|
 |Nunchaku|average|both|none|low|
 |Whip|very long|both|none|very low|
 |Whip Sword|long|right|double|low|
