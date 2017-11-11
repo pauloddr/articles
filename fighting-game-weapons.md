@@ -43,8 +43,8 @@ Random notes about a hopeful weapon-pack for my fighting game.
 |Lance|long|both|pointed|low|throwable; overlaps with spear?|
 |Scythe|long|both|single|low|
 |Claw|short|both|single|very low|
-|Blade Arm|short|both|double|very low|attachable to hand (like a claw, but is used differently); blade extends like a third part of the arm|
-|Finger Blades|very short|both|pointed|very low|
+|Blade Arm|short|both|double|very low|attachable to hand (like a claw, but is used differently); blade acts like a third segment of the arm|
+|Finger Blades|average|both|pointed|very low|not a nail blade (unlike Primal Arts); attached to the mid segment of the finger; blades can be as long as daggers|
 |Tonfa|short|both|none|high|high defense, low damage|
 |Staff|long|both|none|low|
 |Nightstick|short|any|none|low|
@@ -59,10 +59,13 @@ Random notes about a hopeful weapon-pack for my fighting game.
 |Shotgun Rifle|average|both|pointed|very low|
 |Submachine Gun|average|any|pointed|very low|
 |Assault Rifle|average|both|pointed|very low|
-|Weapons Master|various|various|various|very low|all-offense style; attacks quickly draw and holster different weapons: knife and dagger (upper arms); longsword (waist); arm shield; dual pistols (legs); whip (waist); assault rifle (lower back); shotgun rifle (upper back); shuriken (tertiary weapon)|
-|Ice Weapons|various|various|various|lowest|attacks morph into several weapons; low defense and offense|
+|Ice Weapons|various|various|various|lowest|attacks morph into several weapons; low defense and offense, high versatility|
 |Great Arms|giant|both|single|average|giant arms that reach the ground|
-|Energy Blade|various|any|double|lowest|a hilt/bayard that projects different kinds of shapes; low defense and offense|
+|Energy Blade|various|any|double|lowest|a hilt/bayard that projects different kinds of shapes; low defense and offense, high versatility|
 |Dancing Swords|average|all|double|average|six floating blades, controllable by punches and kicks|
-|Wing Blades|giant|both|double|high|can not really fly with them :P|
+|Wing Blades|giant|both|double|high|
+|Weapons Master|various|various|various|very low|all-offense style; attacks quickly draw and holster different weapons: knife and dagger (upper arms); longsword (waist); arm shield; dual pistols (legs); whip (waist); assault rifle (lower back); shotgun rifle (upper back); shuriken (tertiary weapon); lowest defense of all sets|
 
+## WIP
+
+Work in progress. All information subject to change.
