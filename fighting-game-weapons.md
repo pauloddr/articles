@@ -42,6 +42,7 @@ Random notes about a hopeful weapon-pack for my fighting game.
 |Spear|long|both|double|low|throwable|
 |Lance|long|both|pointed|low|throwable; overlaps with spear?|
 |Scythe|long|both|single|low|
+|Rod|long|both||low|enhances "Guardian Drive" generation and attacks|
 |Claw|short|both|single|very low|
 |Blade Arm|short|both|double|very low|attachable to hand (like a claw, but is used differently); blade acts like a third segment of the arm|
 |Finger Blades|average|both|pointed|very low|not a nail blade (unlike Primal Arts); attached to the mid segment of the finger; blades can be as long as daggers|
