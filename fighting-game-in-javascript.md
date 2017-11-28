@@ -372,7 +372,7 @@ AI Skills are mirrored after abilities necessary for people in general to succee
   * A "hit confirm" allows the robot to hit another skill in succession after the enemy has been successfully hit.
     * This is the essence of hit-confirms.
     * Low execution skill may mess the timing of the follow-up skill and allow the enemy to block/counter.
-    * A "missed confirm" happens when the robot successfully hits with a skill, but does not execute the follow up.
+  * A "missed confirm" happens when the robot successfully hits with a skill, but does not execute the follow up.
     * This will be a missed opportunity, but not yield negative results to the attacker.
     * Wrong execution (caused by low execution skill) that prevents the follow-up skill to execute does not count as a "missed confirm".
   * A "blocked confirm" will make the robot follow up with another skill after the enemy blocked the first hit.
