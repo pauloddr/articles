@@ -299,13 +299,13 @@ The max level of a character will be 100, and each level gives one attribute poi
   * This makes the character's melee and throw attacks stronger overall.
   * Throws do not cause Shield damage.
 * __Vitality__ - enhances Health points, Shield points, and Focus points.
-  * This increases the character's overall survivability.
+  * This increases the character's overall survivability.
 * __Agility__ - enhances movement speed, and Shield/Focus recovery speed.
   * This makes the character move faster, even out of danger, so they can recover faster.
 * __Dexterity__ - enhances melee, throws, and projectile damage to Focus.
-  * Causes the character's attacks to hit more accurately, stunning their enemies faster.
+  * Causes the character's attacks to hit more accurately, stunning their enemies faster.
 * __Intelligence__ - enhances Special points gained by using skills, and projectile damage to Health and Shields.
-  * Enhances the character's "spirit", causing their projectiles to be stronger.
+  * Enhances the character's "spirit", causing their projectiles to be stronger.
   * The character also executes their skills more intelligently and efficiently, yielding more benefits in the form of additional Special Points earned.
 * __Charisma__ - reduces the time Focus and Shield begin recovering after you stop receiving attacks, and reduces stun duration.
   * The character is loved! The support of their fans brings them to their feet faster! :)
@@ -362,16 +362,16 @@ Some rewards are immediately earned as soon as a participant finishes a round (w
 AI Skills are mirrored after abilities necessary for people in general to succeed in fighting games:
 
 * __Execution__: how fast skill inputs are entered, and without mistakes.
-  * Robots will not "execute skills directly", but rather "input directional and button presses" just like players would do.
+  * Robots will not "execute skills directly", but rather "input directional and button presses" just like players would do.
   * A low execution skill will make the robot miss commands and combos, or with messed-up timing.
 * __Reaction__: how robots react to skills used against them in a way that the enemy ends up punished.
-  * Robots will "memorize" skills the more they're used against them.
-  * Low reaction skills will make the robots make a decision too late, or a bad one.
+  * Robots will "memorize" skills the more they're used against them.
+  * Low reaction skills will make the robots make a decision too late, or a bad one.
   * Tech throwing, for example, falls under this category.
 * __Confirms__: how precisely the robot follows up after a skill connects (or not).
   * A "hit confirm" allows the robot to hit another skill in succession after the enemy has been successfully hit.
     * This is the essence of hit-confirms.
-    * Low execution skill may mess the timing of the follow-up skill and allow the enemy to block/counter.
+    * Low execution skill may mess the timing of the follow-up skill and allow the enemy to block/counter.
     * A "missed confirm" happens when the robot successfully hits with a skill, but does not execute the follow up.
     * This will be a missed opportunity, but not yield negative results to the attacker.
     * Wrong execution (caused by low execution skill) that prevents the follow-up skill to execute does not count as a "missed confirm".
