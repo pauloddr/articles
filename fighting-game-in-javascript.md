@@ -120,8 +120,6 @@ Each robot shares the memories of a deceased human in the form of a synthetic "b
 
 __In the game, the player him/herself takes the role of a human mentor of the robots they create using the "Create a Character" feature.__
 
-
-
 ## Characters, Factions, and Fighting Styles
 
 Initially, the game will feature 12 playable characters. Those are the NPCs (Non-Player Characters).
@@ -297,19 +295,19 @@ They are enhanced by the character level. Each attribute will have a max of 50 p
 
 The max level of a character will be 100, and each level gives one attribute point to use.
 
-* Strength - enhances melee damage to Health and Shields, and throw damage to Health.
-  * This makes the character's melee and throw attacks stronger overall.
+* __Strength__ - enhances melee damage to Health and Shields, and throw damage to Health.
+  * This makes the character's melee and throw attacks stronger overall.
   * Throws do not cause Shield damage.
-* Vitality - enhances Health points, Shield points, and Focus points.
+* __Vitality__ - enhances Health points, Shield points, and Focus points.
   * This increases the character's overall survivability.
-* Agility - enhances movement speed, and Shield/Focus recovery speed.
+* __Agility__ - enhances movement speed, and Shield/Focus recovery speed.
   * This makes the character move faster, even out of danger, so they can recover faster.
-* Dexterity - enhances melee, throws, and projectile damage to Focus.
+* __Dexterity__ - enhances melee, throws, and projectile damage to Focus.
   * Causes the character's attacks to hit more accurately, stunning their enemies faster.
-* Intelligence - enhances Special points gained by using skills, and projectile damage to Health and Shields.
+* __Intelligence__ - enhances Special points gained by using skills, and projectile damage to Health and Shields.
   * Enhances the character's "spirit", causing their projectiles to be stronger.
   * The character also executes their skills more intelligently and efficiently, yielding more benefits in the form of additional Special Points earned.
-* Charisma - reduces the time Focus and Shield begin recovering after you stop receiving attacks, and reduces stun duration.
+* __Charisma__ - reduces the time Focus and Shield begin recovering after you stop receiving attacks, and reduces stun duration.
   * The character is loved! The support of their fans brings them to their feet faster! :)
 
 Each point increases the aforementioned attributes by 1% each. So Vitality enhances HP by 50% when 50 points are invested, allowing it to reach 1200 points.
