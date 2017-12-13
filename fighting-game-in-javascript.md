@@ -348,24 +348,22 @@ League Tiers:
 
 Characters will need to unlock the next tiers by placing above certain ranks in the leaderboard. Once a character unlocks the next tier, it (usually) can not return to the previous tier. So characters that are dominating in Local Leagues, once they get "promoted" to the next tier, they can no longer play Locals. This makes Local Leagues more of an entry point, and gives everyone a fair chance. Rewards will be balanced around this, so playing on District Leagues (which take longer) yields similar rewards as running Local Leagues seven times (and so on). In practice, this will be reflected on the number of contestants allowed in those Tiers, as the more they fight, the more rewards they earn.
 
-
-
 Rewards for all League Tiers:
 
-* __AI XP__ - participating in a League gives that character "AI XP" which can be used to improve their AI skills. All characters will earn the same amount of AI XP, regardless of placement.
+* __AI XP__ - participating in a League gives that character "AI XP" which can be used to improve their AI attributes. All characters will earn the same amount of AI XP, regardless of placement.
 * __Normal XP__ - characters will earn a reduced amount of normal XP in this mode.
 * __Credits__ - Entering a League costs a fee of in-game credits. The higher the League Tier, the more expensive the fee will be. The better the placement, the more credits will be awarded. Depending on placement, players will earn back what they paid to enter the League, and the top contenders will get a bonus. If character keeps performing poorly, player will end up losing credits.
 * Unique rewards can be considered for the best characters, such as gear, titles, etc.
 
 Some rewards are immediately earned as soon as a participant finishes a round (win or lose) in the League. The player will be able to improve/change the character over the course of a League. Additional rewards (related to placement) will be earned after all fights are finished.
 
-AI Skills are mirrored after abilities necessary for people in general to succeed in fighting games:
+__AI attributes__ are mirrored after attributes necessary for people in general to succeed in fighting games:
 
 * __Execution__: how fast skill inputs are entered, and without mistakes.
   * Robots will not "execute skills directly", but rather "input directional and button presses" just like players would do.
   * A low execution skill will make the robot miss commands and combos, or with messed-up timing.
 * __Reaction__: how robots react to skills used against them in a way that the enemy ends up punished.
-  * Robots will "memorize" skills the more they're used against them.
+  * Robots will "memorize" skills the more they're used against them (see __Memory__ attribute).
   * Low reaction skills will make the robots make a decision too late, or a bad one.
   * Tech throwing, for example, falls under this category.
 * __Confirms__: how precisely the robot follows up after a skill connects (or not).
@@ -381,8 +379,22 @@ AI Skills are mirrored after abilities necessary for people in general to succee
     * This is a grey area which may have positive or negative consequences for the robot performing the attacks.
     * This is like executing an skill after another that may or may not hit the enemy because they're moving a lot, jumping around, etc -- like "fishing" for a hit.
   * Having high confirm skills allows the "hit confirm" chance to be higher, decreasing the other chances.
+* __Memory__: increases the amount of skills that can be remembered by the robot, and for how long.
+  * When a skill is using against the robot, that skill goes into the robot's "memory", allowing the robot to react to that skill in a specific way (decided by the player).
+  * Other skills will be used and be memorized in the same way.
+  * The more the same skill is used against the robot, the longer it will take for that skill to be forgotten.
+  * Skills that are less used against the robot will be "discarded" by other, more rememberable skills.
+  * Increasing this skill makes the robot remember more skills, and keep them longer.
+* Two more AI attributes will be created just so there are six of them.
 
-AI Skills can not be enhanced in a way that they're always successful. There will always be a small chance for them to fail.
+Each AI attribute will have a maximum of 50 points, and the maximum AI level is 100 - just like normal level progression and attributes.
+
+AI attributes can not be enhanced in a way that they're always successful. There will always be a chance for them to fail. Below is the list of effects for each attribute when they're maxed out at 50 points:
+
+* __Execution__: 90% input accuracy and precise timing while entering skill inputs.
+* __Reaction__: make a decision 5x faster (compared to zero points).
+* __Confirms__: increases "Hit Confirm" chance up to 85%, leaving the others (Missed Confirm, Blocked Confirm, Blank Confirm) at 5% each.
+* __Memory__: each point increases the "memorized skill slot" count by +1, and increases the amount of time it takes for a skill to be forgotten by 2%. Robots begin with 20 memory slots.
 
 Other fighting game skills such as "Meaties" (making skills hit at the last possible active frame), "Conditioning" (making the enemy perform something based on a pattern) and "the Shimmy" (walking away from close range after conditioning the enemy to throw) can be simulated by building the behaviors and decisions of the robot in the normal AI building process.
 
