@@ -394,14 +394,15 @@ __AI attributes__ are mirrored after attributes necessary for people in general 
 * __Combos__: build a combo tree for your robot.
   * Multiple branches are allowed, and they can have conditions attached to them.
     * Example: `[LK]` -> `[HK]` or a `[Super]` (if enough SP is available).
-  * Certain "combo skills" allow some mechanics to be ignored.
-    * Example: special combo skill "Force Confirm" will always make the robot perform the next move, regardless of his __Confirms__ attribute. But this has an additional cost - see next item.
-      * A "pressure combo": `[LK]` -> `[Force Confirm]` -> `[Special]` (a safe one)
+  * Next hits in a combo are dependent on __Confirms__ attribute.
+    * Example: `[LK]` -> `[HK]`: if `[LK]` hits before `[HK]` is executed, a "confirm check" is performed. If it rolls a "Hit Confirm" (good outcome) or "Blocked Confirm" (bad outcome), `[HK]` will execute.
+  * It is possible to use special combo skill `[Force Next]` to always execute the next move, regardless of the __Confirms__ attribute. But this has an additional cost - see next item.
+    * A "pressure combo": `[LK]` -> `[Force Next]` -> `[Special]` (a safe one)
   * Each skill added to the combo tree takes an amount of points to use.
     * Normals: 1 point.
     * Specials: 3 points.
     * Supers: 5 points.
-    * Forced Confirms: 4 points.
+    * Force Next: 1 point.
 
 Each AI attribute will have a maximum of 50 points, and the maximum AI level is 100 - just like normal level progression and attributes.
 
