@@ -385,7 +385,23 @@ __AI attributes__ are mirrored after attributes necessary for people in general 
   * The more the same skill is used against the robot, the longer it will take for that skill to be forgotten.
   * Skills that are less used against the robot will be "discarded" by other, more rememberable skills.
   * Increasing this skill makes the robot remember more skills, and keep them longer.
-* Two more AI attributes will be created just so there are six of them.
+* __Actions__: increases the amount of different actions that can be performed by the robot.
+  * This is the essence of AI building.
+  * An "action" is something like, "approach", "jump back", and so on.
+  * Actions can have conditions associated to them, and they can be ordered by priority.
+  * More actions create more situations for your robot to succeed.
+  * There are a number of inherited actions that do not take action slots and are always available, such as "block" and "attack randomly".
+* __Combos__: build a combo tree for your robot.
+  * Multiple branches are allowed, and they can have conditions attached to them.
+    * Example: `[LK]` -> `[HK]` or a `[Super]` (if enough SP is available).
+  * Certain "combo skills" allow some mechanics to be ignored.
+    * Example: special combo skill "Force Confirm" will always make the robot perform the next move, regardless of his __Confirms__ attribute. But this has an additional cost - see next item.
+      * A "pressure combo": `[LK]` -> `[Force Confirm]` -> `[Special]` (a safe one)
+  * Each skill added to the combo tree takes an amount of points to use.
+    * Normals: 1 point.
+    * Specials: 3 points.
+    * Supers: 5 points.
+    * Forced Confirms: 4 points.
 
 Each AI attribute will have a maximum of 50 points, and the maximum AI level is 100 - just like normal level progression and attributes.
 
@@ -394,7 +410,9 @@ AI attributes can not be enhanced in a way that they're always successful. There
 * __Execution__: 90% input accuracy and precise timing while entering skill inputs.
 * __Reaction__: make a decision 5x faster (compared to zero points).
 * __Confirms__: increases "Hit Confirm" chance up to 85%, leaving the others (Missed Confirm, Blocked Confirm, Blank Confirm) at 5% each.
-* __Memory__: each point increases the "memorized skill slot" count by +1, and increases the amount of time it takes for a skill to be forgotten by 2%. Robots begin with 20 memory slots.
+* __Memory__: each point increases the "memorized skill slot" count by +1, and increases the amount of time it takes for a skill to be forgotten by 2%. Robots begin with 5 memory slots.
+* __Action__: each point gives one additional action slot. Robots begin with 5 action slots.
+* __Combos__: each point gives one additional combo point. Robots begin with 5 combo points.
 
 Other fighting game skills such as "Meaties" (making skills hit at the last possible active frame), "Conditioning" (making the enemy perform something based on a pattern) and "the Shimmy" (walking away from close range after conditioning the enemy to throw) can be simulated by building the behaviors and decisions of the robot in the normal AI building process.
 
