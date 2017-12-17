@@ -88,14 +88,18 @@ Implement the rest of the features.
 
 ## Control Scheme
 
-The standard directional + four action buttons scheme:
+The control scheme features four action buttons. 
 
-* Light Punch
-* Heavy Punch
-* Light Kick
-* Heavy Kick
+Mostly due to Character Customization, they are not tied to specific limbs:
 
-Powered-up command skills are performed with two punch/kick buttons at the same time.
+* __A__ - Light Attack 1
+* __B__ - Light Attack 2
+* __C__ - Heavy Attack 1
+* __D__ - Heavy Attack 2
+
+For most NPCs, A and C are punches, and B and D are kicks.
+
+Powered-up command skills are performed with A+C or B+D at the same time.
 
 Super skills are performed with additional directional motions.
 
