@@ -22,7 +22,7 @@ Random notes about a hopeful weapon-pack for my fighting game.
 
 |Name|Size|Hand|Edge|Defense|Extra|
 |:---|:---:|:---:|:---:|:---:|---|
-|Gladius|average|any|double|low|a small sword
+|Gladius|average|any|double|low|a small sword|
 |Shield|average|left|-|very high|best defense of all weapons|
 |Throwable Shield|small|right|-|average|throwable; can be used to attack; can not "dual wield" with another shield|
 |Arm Shield|small/narrow|left|-|average|allow usage of small weapon in left hand|
@@ -65,6 +65,7 @@ Random notes about a hopeful weapon-pack for my fighting game.
 |Energy Blade|various|any|double|lowest|a hilt/bayard that projects different kinds of shapes; low defense and offense, high versatility|
 |Dancing Swords|average|all|double|average|six floating blades, controllable by punches and kicks|
 |Wing Blades|giant|both|double|high|
+|Power Disc|small|both|double|low|throwable disc|
 |Weapons Master|various|various|various|very low|all-offense style; attacks quickly draw and holster different weapons: knife and dagger (upper arms); longsword (waist); arm shield; dual pistols (legs); whip (waist); assault rifle (lower back); shotgun rifle (upper back); shuriken (tertiary weapon); lowest defense of all sets|
 
 ## WIP
