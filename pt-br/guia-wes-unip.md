@@ -36,7 +36,7 @@ Em posse deste número:
 
 Em seguinda, envie um email para riunip@unip.br, com as seguintes informações:
 
-* Formulário do WES digitalizado anteriormente
+* Formulário do WES digitalizado anteriormente, em anexo
 * Nome completo
 * CPF
 * RA
@@ -44,13 +44,15 @@ Em seguinda, envie um email para riunip@unip.br, com as seguintes informações:
 * Informe que abriu atendimento na Secretaria para emissão de Histórico Escolar impresso.
 * Explique que está solicitando que a UNIP envie o envelope com o histórico escolar ao WES.
 
-A partir daí, o Setor de Internacionalização irá assumir os próximos passos e fazer o envio do envelope ao WES. Atenção: o custo disso será cobrado do aluno. Na época da criação deste documento, o valor informado pela atendente ficou em torno de R$ 200. Este envio contará com um número de rastreio que a UNIP irá informar ao aluno quando enviar o envelope.
+A partir daí, o Setor de Internacionalização irá assumir os próximos passos e fazer o envio do envelope ao WES. 
+
+Atenção: o custo disso será cobrado do aluno. Na época da criação deste documento, o valor informado pela atendente ficou em torno de R$ 200. Este envio contará com um número de rastreio que a UNIP irá informar ao aluno quando enviar o envelope.
 
 ## 3) Traduzir Histórico e Diploma
 
 Aguardar a chegada do Histórico Escolar impresso no pólo ou no seu endereço. Em posse deste Histórico:
 
-* Tirar duas cópias coloridas simples do Histórico e Diploma.
+* Tirar duas cópias coloridas simples do Histórico e Diploma (frente e verso).
 * Separar uma cópia de cada documento para o seu envelope do WES.
 * Enviar as outras cópias para tradução juramentada.
   * Obs.: se estiver usando a Docsbase, não precisa enviar a cópia via correio. Eles aceitam documentos digitalizados.
@@ -58,7 +60,7 @@ Aguardar a chegada do Histórico Escolar impresso no pólo ou no seu endereço. 
 * Tirar cópias coloridas simples de cada tradução juramentada. 
   * As traduções originais devem ficar com o aluno.
 * Incluir estas cópias no seu envelope do WES.
-* Preencher o envelope (destinatário e remetente), não esquecendo do número do WES.
+* Preencher o envelope (destinatário e remetente), não esquecendo do número do WES nos dados do destinatário.
 * Postar o envelope.
 
 Em resumo, o conteúdo do seu envelope deve ser:
